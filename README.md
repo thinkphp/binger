@@ -8,7 +8,7 @@ A simple gem that provides a client to Microsoft's Bing Search API v2 using HTTP
 $ git clone git://github.com/thinkphp/binger.git
 $ cd binger
 $ gem build binger.gemspec
-$ gem install ./bing-0.1.0.gem
+$ gem install ./binger-0.1.0.gem
 $ irb
 $ irb(main):001:0> require 'binger'
 $ => true
