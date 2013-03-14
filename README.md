@@ -7,7 +7,7 @@ A simple gem that provides a client to Microsoft's Bing Search API v2 using HTTP
 # Usage
 
 ```
-require 'bing'
+require 'binger'
 
 bing = Bing.new("49EB4B94127F7C7836C96DEB3F2CD8A6D12BDB71")
 
