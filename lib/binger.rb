@@ -15,7 +15,7 @@ require 'uri'
     #  
     # Example:         
     # 
-    # >> require 'bing' 
+    # >> require 'binger' 
     # => true
     # >> bing = Bing.new('your-api-key')
     # => #<Bing:0x1af10 @api_key="your-api-key">  
@@ -27,7 +27,7 @@ require 'uri'
         @api_key = api_key 
     end
 
-    # Sending a request HTTP GET
+    # Sending a request HTTP GET to the Endpoint.
     # 
     # A request to the HTTP endpoint consists of a HTTP GET request to the approriate URI. There are two URLs, one for XML results and one for JSON results.
     # These are http://api.bing.com/xml.aspx and and http://api.bing.com/json.aspx, respectively.
